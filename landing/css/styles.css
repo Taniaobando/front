@@ -1,0 +1,418 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+
+body{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: bold;
+    
+}
+
+.logo{
+    width: 120.34px;
+    height: 23.74px;
+}
+
+header{
+    margin-top: 5%;
+    display:flex;
+    justify-content:space-around;
+}
+
+nav ul{
+    list-style: none;
+    display:flex;
+    justify-content:space-around
+}
+
+.headerNav{
+    margin-right: 30px;
+    font-size: 15px;
+    color: #242E52;
+
+}
+
+.ButtonGetStarted{
+    color:white;
+    font-size: 13.18px;
+    padding: 13px 25px;
+    background-color: #F3603B;
+    border: 1px solid #F3603B;
+    border-radius: 50px;
+    font-weight: normal;
+
+}
+
+.initialContent{
+    display:flex;
+    justify-content: space-between;
+    margin-left:9%;
+    margin-right:9%;
+
+}
+
+.initialContentLeft{
+    margin-top: 15%;
+
+}
+
+.mainText{
+    font-size: 30px;
+    color: #242E52;
+}
+
+.mainContentLeft{
+    margin-top: 5%;
+    font-size: 16.5584px;
+    margin-bottom: 10%;
+
+}
+
+.statisticsImage{
+    margin-top: 15%;
+}
+
+.firstContainer{
+    display:flex;
+    justify-content: space-between;
+    margin-left:9%;
+    margin-right:9%;
+    margin-top: 5%;
+}
+
+.firstContentContainer{
+    margin-top: 5%;
+
+}
+
+
+.firstTitleLeft{
+    font-size: 36px;
+    color: #242E52;
+
+}
+
+.firstContentLeft{
+    font-size: 16px;
+}
+
+
+.itemsTitle{
+    color: #323851;    ;
+    margin-top: 2.5%;
+}
+
+.itemsContainer{
+    display: flex;
+    justify-content: start;
+}
+
+.itemsMainContainer{
+    margin-bottom:5% ;
+}
+
+.itemsContentRight{
+    font-size: 16.2984px;
+    margin-left: -20%;
+    font-weight: normal;
+    color:#B3B2B7;
+
+
+}
+
+.itemsSpaceContainer{
+    margin-bottom: 5%;
+}
+
+.items{
+
+    color:white;
+    font-size: 16px;
+    padding: 10px 25px;
+    background-color: #F3603B;
+    border: 1px solid #F3603B;
+    border-radius: 50px;
+    margin-right: 5%;
+    margin-left: -40%;
+    
+}
+
+.secondMainTitle{
+    margin-top: 10%;
+    font-size: 39px;
+    color: #242E52;
+    text-align: center;
+}
+
+.secondTitle{
+    font-size: 16.2984px;
+    color: #242E52;
+    margin-bottom: 5%;
+}
+
+.secondContainer{
+    display: flex;
+    justify-content: space-around;
+    margin-top:10%;
+    margin-bottom: 5%;
+    margin-left:5%;
+    margin-right:5%;
+    background-color: #FAFAFA;
+    text-align: center;
+}
+
+.buttonCenter{
+    text-align: center;
+    margin-bottom: 10%;
+    
+}
+
+.secondImages{
+    margin-top: -20%;
+    margin-bottom: 5%;
+}
+
+
+.footerFirstContainer{
+    background-color: #F3603B ;
+    
+}
+
+.footerSecondContainer{
+    display: flex;
+    justify-content: space-around;
+    background-color:#1E1E26;
+}
+
+.logo2{
+    margin-top: 35%;
+    margin-left:11%;
+}
+
+
+.footerTitleContainer{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.footerTitle{
+    color: white;
+    font-size: 40px;
+}
+
+.footerButtonLocation{
+    margin-top: 5%;
+
+
+}
+
+.footerButtonGetStarted{
+    display: flex;
+    justify-content: flex-end;
+    color: #F3603B;
+    font-size: 13.18px;
+    padding: 13px 25px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 50px;
+    font-weight: normal;
+}
+
+.footerNav{
+    font-weight: normal;
+    color: white;
+    font-size: 15px;
+
+}
+
+
+.fa-facebook-square{
+    color:white;
+    font-size: 20px;
+    font-weight: normal;
+    margin-right: 2%;
+}
+
+.youtubeIcon{
+    color:#1E1E26;
+
+}
+
+.fa-youtube{
+    background-color: white;
+    border-radius: 50%;
+    border: 1x solid white;
+    padding:2px;
+    font-size: 20px;
+    font-weight: normal;
+    margin-right: 2%;
+}
+
+.fa-twitter{
+    color:white;
+    font-size: 20px;
+    font-weight: normal;
+    margin-right: 2%;
+}
+
+.fa-pinterest{
+    color:white;
+    font-size: 20px;
+    font-weight: normal;
+    margin-right: 2%;
+    
+}
+
+.fa-instagram{
+    color:white;
+    font-size: 20px;
+    font-weight: normal;
+    margin-right: 2%;
+}
+
+.iconsContainer{
+    margin-top: 48%;
+    margin-left: 11%;
+    margin-bottom: 26%;
+}
+
+.footerNavContainerFirst{
+    display: flex;
+    flex-direction: column;
+    margin-top: 85%;
+}
+
+.footerNavContainerSecond{
+    display: flex;
+    flex-direction: column;
+    margin-top: 57%;
+
+}
+
+.footerSpaceNavFirst{
+    margin-bottom: 10%;
+
+}
+
+.footerSpaceNavSecond{
+    margin-bottom: 6%;
+}
+
+.copyright{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 29%;
+    color: #8C8C94;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.inputForm{
+    font-size: 13.18px;
+    padding: 10px 10px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 50px;
+    margin-right: 5%;
+
+}
+
+.footerForm{
+    margin-top: 20%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.buttonForm{
+    margin-left: 2px;
+    border-radius: 50px;
+    background-color: #F3603B;
+    font-weight: none;
+    border-color: transparent;
+    color: white;
+    width: 5vw;
+}
+
+
+@media screen and (min-width: 768px) { 
+    .iconHamburger {
+        display: none;
+      }
+}
+
+@media screen and (max-width: 768px) { 
+    .headerNav {
+       display: none;
+    }
+
+    #FirstButton{
+        display: none;
+    } 
+
+    .logo{
+        margin-top: 8%;
+        margin-left: -10%;
+    }
+
+    .iconHamburger {
+      width: 29px;
+      height: 20px;
+      margin-top: 7%;
+    }
+
+    .initialContent{
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .statisticsImage{
+        height: 332px;
+        width: 330px;
+    }
+
+    .mainText{
+       
+    }
+
+    .mainContentLeft{
+        color:#B3B2B7;
+    }   
+    
+    .ButtonGetStarted{
+        text-align: center;
+    }
+
+    .firstContainer{
+        margin-top: 18%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .firstTitleLeft{
+        text-align: center;
+    }
+
+    .firstContentContainer{
+        text-align: center;
+        color:#B3B2B7;
+    }
+
+    .itemsContainer{
+        margin-top: 5%;
+        justify-content: flex-end;
+    }
+
+    .itemsContentRight {
+        margin-left: 2%;
+
+    }
+
+    
+
+}
+
